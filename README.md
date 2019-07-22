@@ -12,11 +12,8 @@ assessment model to yield frame-level quality.
 
 For more details and evaluation results, please check out our  [paper](https://arxiv.org/ftp/arxiv/papers/1808/1808.05344.pdf).
 
-![teaser](https://github.com/JasonSWFu/End-to-end-waveform-utterance-enhancement/blob/master/images/Fig1_3.png)
+![teaser](https://github.com/JasonSWFu/Quality-Net/blob/master/images/Quality_Net.png)
 
-
-### Dependencies:
-* Python 2.7
 
 
 ### Citation

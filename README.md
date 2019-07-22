@@ -2,11 +2,12 @@
 
 
 ### Introduction
-This paper tries to solve the mismatch (as in Fig.1) between training objective function and evaluation metrics which are usually highly correlated to human perception. Due to the inconsistency, there is no guarantee that the trained model can provide optimal performance in applications. In this study, we propose an end-to-end utterance-based speech enhancement framework using fully convolutional neural networks (FCN) to reduce the gap between the model optimization and the evaluation criterion. Because of the utterance-based optimization, temporal correlation information of long speech segments, or even at the entire utterance level, can be considered to directly optimize perception-based objective functions.
+Herein, we propose a novel, end-to-end, and non-intrusive speech quality evaluation model, termed Quality-Net, based on bidirectional long short-term memory (BLSTM). In addition, to prevent Quality-Net from becoming an incomprehensible black box, its structure is designed to automatically learn (infer) a reasonable frame-level quality. This gives Quality-Net the ability to locate the degraded regions in an utterance. Although our ultimate goal is to learn the mapping function of the human listening perception, an off-the-shelf data set with labels that meets our requirements does not exist (here, we focus on predicting the quality of noisy speech and enhanced speech given by a deep-learning-based speech enhancement model). Therefore, we apply Quality-Net to predict the PESQ scores without a clean reference.
+
 
 ### Major Contribution
-1) Utterance-based waveform enhancement
-2) Direct short-time objective intelligibility (STOI) score optimization (without any approximation)
+1) Quality-Net is the first end-to-end, and non-intrusive quality
+assessment model to yield frame-level quality.
 
 
 For more details and evaluation results, please check out our  [paper](https://arxiv.org/ftp/arxiv/papers/1808/1808.05344.pdf).

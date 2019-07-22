@@ -7,7 +7,7 @@ Herein, we propose a novel, end-to-end, and non-intrusive speech quality evaluat
 
 ### Major Contribution
 Quality-Net is the first "end-to-end", and "non-intrusive" quality
-assessment model (as shown in Fig. 1)to yield "frame-level" quality.
+assessment model (as shown in Fig. 1) to yield "frame-level" quality.
 
 
 ![teaser](https://github.com/JasonSWFu/Quality-Net/blob/master/images/Quality_Net.png)
